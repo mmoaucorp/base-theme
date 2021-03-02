@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- connect to domain of font files -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link
+    <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
       rel="stylesheet"
       rel="preload"
       as="style"
-    /> -->
+    />
     <link rel="stylesheet" href="./assets/css/style.min.css" />
     <title>Base Theme</title>
   </head>
@@ -27,12 +27,32 @@
               width="70px"
               height="69px"
             />
-            <nav class="nav">
-              <a href="">Home</a>
-              <a href="">About Us</a>
-              <a href="">Contact Us</a>
-            </nav>
-            <i class="menu-icon"></i>
+            <div>
+              <input
+                type="checkbox"
+                id="drawer-toggle"
+                class="drawer-toggle"
+                name="drawer-toggle"
+              />
+              <label for="drawer-toggle" class="menu-icon"></label>
+              <label for="drawer-toggle" class="overlay"></label>
+              <div class="drawer">
+                <label
+                  for="drawer-toggle"
+                  class="close-icon drawer-close-icon"
+                ></label>
+                <nav class="nav mobile-nav">
+                  <a href="">Home</a>
+                  <a href="">About Us</a>
+                  <a href="">Contact Us</a>
+                </nav>
+              </div>
+              <nav class="nav">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+              </nav>
+            </div>
           </div>
         </div>
       </header>
@@ -62,13 +82,11 @@
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of <a href="">Lorem Ipsum</a>.
           </p>
-          <h3>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </h3>
         </div>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <p>© 2021 Base Theme</p>
+      </footer>
     </div>
   </body>
 </html>
