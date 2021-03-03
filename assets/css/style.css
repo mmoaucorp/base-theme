@@ -18,8 +18,6 @@ up to desktop: 1280
   --primary-color: #3498db;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
-  --normal-weight: 400;
-  --bold-weight: 700;
 }
 
 /* ------- Global Styles ------- */
@@ -40,7 +38,7 @@ body {
   font-family: var(--primary-font);
   color: var(--text-color);
   background-color: var(--bg-color);
-  font-weight: var(--normal-weight);
+  font-weight: normal;
 }
 p {
   margin-bottom: 1rem;
