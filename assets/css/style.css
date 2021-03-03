@@ -18,6 +18,9 @@ up to desktop: 1280
   --primary-color: #3498db;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
+  --normal-weight: 400;
+  --bold-weight: 700;
+  --light-weight: 300;
 }
 
 /* ------- Global Styles ------- */
@@ -38,7 +41,7 @@ body {
   font-family: var(--primary-font);
   color: var(--text-color);
   background-color: var(--bg-color);
-  font-weight: normal;
+  font-weight: var(--normal-weight);
 }
 p {
   margin-bottom: 1rem;
@@ -50,10 +53,12 @@ a {
 h1 {
   font-size: 1.912rem;
   font-family: var(--secondary-font);
+  font-weight: var(--light-weight);
 }
 h2 {
   font-size: 1.616rem;
   font-family: var(--secondary-font);
+  font-weight: var(--light-weight);
 }
 h3 {
   font-size: 1.471rem;
