@@ -129,6 +129,14 @@ img {
   flex-grow: 1;
   margin: 40px 0;
 }
+.footer {
+  background: #ffffff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-color-2);
+}
 /* ------- Nav Styles ------- */
 .nav {
   display: none;

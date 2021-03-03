@@ -26,15 +26,6 @@
 .close-icon::after {
   transform: rotate(-45deg);
 }
-/* ------- Layout Styles ------- */
-.footer {
-  background: #ffffff;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--dark-color-2);
-}
 
 /* ------- Nav Styles ------- */
 .drawer {
