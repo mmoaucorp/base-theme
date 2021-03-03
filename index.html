@@ -6,19 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- connect to domain of font files -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@400;700&display=swap"
-    />
+    <style>
+      /* roboto-regular - latin */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        src: url("./assets/fonts/roboto-v20-latin-regular.eot"); /* IE9 Compat Modes */
+        src: local(""),
+          url("./assets/fonts/roboto-v20-latin-regular.eot?#iefix")
+            format("embedded-opentype"),
+          /* IE6-IE8 */ url("./assets/fonts/roboto-v20-latin-regular.woff2")
+            format("woff2"),
+          /* Super Modern Browsers */
+            url("./assets/fonts/roboto-v20-latin-regular.woff") format("woff"),
+          /* Modern Browsers */
+            url("./assets/fonts/roboto-v20-latin-regular.ttf")
+            format("truetype"),
+          /* Safari, Android, iOS */
+            url("./assets/fonts/roboto-v20-latin-regular.svg#Roboto")
+            format("svg"); /* Legacy iOS */
+      }
+      /* roboto-700 - latin */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        src: url("./assets/fonts/roboto-v20-latin-700.eot"); /* IE9 Compat Modes */
+        src: local(""),
+          url("./assets/fonts/roboto-v20-latin-700.eot?#iefix")
+            format("embedded-opentype"),
+          /* IE6-IE8 */ url("./assets/fonts/roboto-v20-latin-700.woff2")
+            format("woff2"),
+          /* Super Modern Browsers */
+            url("./assets/fonts/roboto-v20-latin-700.woff") format("woff"),
+          /* Modern Browsers */ url("./assets/fonts/roboto-v20-latin-700.ttf")
+            format("truetype"),
+          /* Safari, Android, iOS */
+            url("./assets/fonts/roboto-v20-latin-700.svg#Roboto") format("svg"); /* Legacy iOS */
+      }
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@400;700&display=swap"
-      media="print"
-      onload="this.media='all'"
-    />
+      /* montserrat-300 - latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 300;
+        src: url("./assets/fonts/montserrat-v15-latin-300.eot"); /* IE9 Compat Modes */
+        src: local(""),
+          url("./assets/fonts/montserrat-v15-latin-300.eot?#iefix")
+            format("embedded-opentype"),
+          /* IE6-IE8 */ url("./assets/fonts/montserrat-v15-latin-300.woff2")
+            format("woff2"),
+          /* Super Modern Browsers */
+            url("./assets/fonts/montserrat-v15-latin-300.woff") format("woff"),
+          /* Modern Browsers */
+            url("./assets/fonts/montserrat-v15-latin-300.ttf")
+            format("truetype"),
+          /* Safari, Android, iOS */
+            url("./assets/fonts/montserrat-v15-latin-300.svg#Montserrat")
+            format("svg"); /* Legacy iOS */
+      }
+    </style>
     <link rel="stylesheet" href="./assets/css/style.min.css" />
 
     <title>Base Theme</title>
