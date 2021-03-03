@@ -16,7 +16,8 @@ up to desktop: 1280
   --dark-color-1: rgba(0, 0, 0, 0.87);
   --dark-color-2: #cdcdcd;
   --primary-color: #3498db;
-  --primary-font: "Lato", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
   --normal-weight: 400;
   --bold-weight: 700;
 }
@@ -50,9 +51,11 @@ a {
 }
 h1 {
   font-size: 1.912rem;
+  font-family: var(--secondary-font);
 }
 h2 {
   font-size: 1.616rem;
+  font-family: var(--secondary-font);
 }
 h3 {
   font-size: 1.471rem;
