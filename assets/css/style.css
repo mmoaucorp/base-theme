@@ -50,15 +50,23 @@ a {
   text-decoration: none;
   color: var(--primary-color);
 }
-h1 {
-  font-size: 1.912rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--secondary-font);
   font-weight: var(--light-weight);
+  margin-top: 1.2rem;
+  margin-bottom: 0.625rem;
+}
+h1 {
+  font-size: 1.912rem;
+  line-height: 1.3;
 }
 h2 {
   font-size: 1.616rem;
-  font-family: var(--secondary-font);
-  font-weight: var(--light-weight);
 }
 h3 {
   font-size: 1.471rem;
@@ -74,6 +82,8 @@ h6 {
 }
 img {
   max-width: 100%;
+  margin: 1rem 0;
+  height: auto;
 }
 
 /* ------- Icons ------- */
@@ -144,7 +154,7 @@ img {
   min-height: 100vh;
 }
 .header {
-  background: #ffffff;
+  background: var(--light-color-1);
 }
 .header__wrapper {
   height: 80px;
@@ -156,13 +166,21 @@ img {
   flex-grow: 1;
   margin: 40px 0;
 }
+.article-container {
+  background: var(--light-color-1);
+  padding: 40px 80px;
+}
 .footer {
-  background: #ffffff;
+  background: var(--light-color-1);
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--dark-color-2);
+}
+.footer p {
+  margin-bottom: 0;
+  font-size: 0.675rem;
 }
 /* ------- Nav Styles ------- */
 .nav {
