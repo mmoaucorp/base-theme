@@ -70,10 +70,9 @@
             format("svg"); /* Legacy iOS */
       }
     </style>
-    
-    <style>
-   :root{--bg-color:#f5f5f5;--text-color:rgba(0, 0, 0, 0.87);--light-color-1:#ffffff;--dark-color-1:rgba(0, 0, 0, 0.87);--dark-color-2:#cdcdcd;--primary-color:#3498db;--primary-font:"Roboto",sans-serif;--secondary-font:"Montserrat",sans-serif;--normal-weight:400;--bold-weight:700;--light-weight:300}*{margin:0;padding:0;box-sizing:border-box}html{font-family:sans-serif;font-size:16px;line-height:1.6;text-size-adjust:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none}body{font-family:var(--primary-font);color:var(--text-color);background-color:var(--bg-color);font-weight:var(--normal-weight)}p{margin-bottom:1rem}a{text-decoration:none;color:var(--primary-color)}h1{font-size:1.912rem;font-family:var(--secondary-font);font-weight:var(--light-weight)}h2{font-size:1.616rem;font-family:var(--secondary-font);font-weight:var(--light-weight)}h3{font-size:1.471rem}h4{font-size:1.3rem}h5{font-size:1.243rem}h6{font-size:1.132rem}img{max-width:100%}.menu-icon{transform:scale(var(--ggs,1))}.menu-icon,.menu-icon::after,.menu-icon::before{box-sizing:border-box;position:relative;display:block;width:20px;height:2px;border-radius:3px;background:currentColor}.menu-icon::after,.menu-icon::before{content:"";position:absolute;top:-6px;right:0;width:10px}.menu-icon::after{top:6px;width:14px}.close-icon{box-sizing:border-box;position:relative;display:block;transform:scale(var(--ggs,1));width:22px;height:22px;border:2px solid transparent;border-radius:40px}.close-icon::after,.close-icon::before{content:"";display:block;box-sizing:border-box;position:absolute;width:16px;height:2px;background:currentColor;transform:rotate(45deg);border-radius:5px;top:8px;left:1px}.close-icon::after{transform:rotate(-45deg)}.container{margin:0 auto;width:100%;display:block;padding-left:12px;padding-right:12px}.page-wrapper{display:flex;flex-direction:column;min-height:100vh}.header{background:#fff}.header__wrapper{height:80px;display:flex;align-items:center;justify-content:space-between}.content{flex-grow:1;margin:40px 0}.footer{background:#fff;height:50px;display:flex;align-items:center;justify-content:center;color:var(--dark-color-2)}.nav{display:none}.mobile-nav{display:flex;flex-direction:column}.mobile-nav a{color:var(--text-color);padding:10px 0}.drawer{position:fixed;background:var(--light-color-1);top:0;right:0;width:40vw;height:100%;padding:0 24px;z-index:99;box-shadow:rgb(67 71 85 / 27%) 0 0 .25em,rgb(90 125 188 / 5%) 0 .25em 1em;transform:translateX(400px);transition:transform .6s cubic-bezier(.22,1,.36,1);opacity:0}.drawer-toggle{display:none}.drawer-toggle:checked~.drawer{transform:translateX(0);opacity:1}.drawer-toggle:checked~.overlay{display:block}.overlay{position:fixed;top:0;left:0;background:rgba(0,0,0,.1);width:100%;height:100%;z-index:9;display:none}.drawer-close-btn{margin:16px 0 24px -16px}@media only screen and (min-width:600px){html{font-size:calc(16px + (22 - 16) * ((100vw - 600px)/ (1280 - 600)))}}@media only screen and (min-width:960px){.container{padding-left:24px;padding-right:24px}.menu-icon{display:none}.nav{display:flex}.nav a{color:var(--text-color);padding:0 10px}.nav a:hover{color:var(--primary-color)}}@media only screen and (min-width:1280px){html{font-size:22px}.container{max-width:1280px}}
-    </style>
+
+    <style></style>
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
 
     <title>Base Theme</title>
   </head>
@@ -120,30 +119,314 @@
       </header>
       <main class="content">
         <div class="container">
-          <h1>What is Lorem Ipsum?</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of <a href="">Lorem Ipsum</a>.
-          </p>
-          <h2>What is scrambled?</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of <a href="">Lorem Ipsum</a>.
-          </p>
+          <div class="article-container">
+            <picture>
+              <img
+                sizes="(max-width: 1140px) 100vw, 1140px"
+                srcset="
+                  ./assets/images/blog-image_gkp2tn_c_scale,w_200.webp   200w,
+                  ./assets/images/blog-image_gkp2tn_c_scale,w_563.webp   563w,
+                  ./assets/images/blog-image_gkp2tn_c_scale,w_761.webp   761w,
+                  ./assets/images/blog-image_gkp2tn_c_scale,w_929.webp   929w,
+                  ./assets/images/blog-image_gkp2tn_c_scale,w_1091.webp 1091w,
+                  ./assets/images/blog-image_gkp2tn_c_scale,w_1140.webp 1140w
+                "
+                src="./assets/images/blog-image_gkp2tn_c_scale,w_1140.webp"
+                alt="Blog Image"
+              />
+            </picture>
+            <h1>HOW LONG SHOULD A BLOG POST BE? – A THOROUGH ANALYSIS</h1>
+            <p>
+              Due to the highly competitive nature of the SEO landscape, knowing
+              the tricks of the trade that give your content the edge up on your
+              competitors is what every content marketer seeks. Determining how
+              long a blog should be is essential because it can affect budgets,
+              posting frequency, and overall content marketing performance.
+            </p>
+            <h2>How Long Should a Blog Post Be?</h2>
+            <p>
+              So, how long should a blog post be? The answer can be tricky,
+              since there’s more at play than just a one-size-fits-all search
+              engine mandate. There are a number of differing opinions from SEOs
+              about what the magical word count should be for a blog post, and
+              many of them are based on data gathered as long ago as 2012. Since
+              the internet has changed quite a bit since then, we’ll analyze
+              more current data to help answer this question. But first, let’s
+              go over some of the most common charts that everyone else uses to
+              answer this question.
+            </p>
+            <h2>
+              These Charts About The Best Length for a Blog Post Can Be
+              Misleading
+            </h2>
+            <p>
+              So, how long should a blog post be? The answer can be tricky,
+              since there’s more at play than just a one-size-fits-all search
+              engine mandate. There are a number of differing opinions from SEOs
+              about what the magical word count should be for a blog post, and
+              many of them are based on data gathered as long ago as 2012. Since
+              the internet has changed quite a bit since then, we’ll analyze
+              more current data to help answer this question. But first, let’s
+              go over some of the most common charts that everyone else uses to
+              answer this question.
+            </p>
+            <img src="./assets/images/chart.webp" alt="CHART" />
+            <h2>
+              What do These Charts Mean When It comes to How Long a Blog Post
+              Should Be?
+            </h2>
+            <p>
+              Both charts dramatically show that content with a higher word
+              count ranks better within Google’s top 10 than content with a
+              lower word count. This could be in conjunction with the number of
+              shares the posts get (we’ll get to this) or could just be an
+              inherent preference by Search Engines like Google to favor longer
+              articles with a higher word count. Another theory is that topical
+              relevancy is increased with longer word count, by nature of the
+              inclusion of more details and related keywords in the content.
+              Google then gets a deeper understanding of your content’s overall
+              topic, thus boosting your position. Lastly, there’s also the idea
+              that the site owners that are publishing the longer content pieces
+              that are ranking well just care more about providing excellent,
+              in-depth content. While this scenario is likely true for a lot of
+              site-owners, it’s impossible to narrow it down to one specific
+              thing using an average across millions of blogs. So how long
+              should a blog be? According to these graphs – and many SEO’s have
+              concluded their numbers based on these graphs – the right word
+              count for how long a blog should be is an average of 2,225 words.
+            </p>
+            <p>
+              Both charts dramatically show that content with a higher word
+              count ranks better within Google’s top 10 than content with a
+              lower word count. This could be in conjunction with the number of
+              shares the posts get (we’ll get to this) or could just be an
+              inherent preference by Search Engines like Google to favor longer
+              articles with a higher word count. Another theory is that topical
+              relevancy is increased with longer word count, by nature of the
+              inclusion of more details and related keywords in the content.
+              Google then gets a deeper understanding of your content’s overall
+              topic, thus boosting your position. Lastly, there’s also the idea
+              that the site owners that are publishing the longer content pieces
+              that are ranking well just care more about providing excellent,
+              in-depth content. While this scenario is likely true for a lot of
+              site-owners, it’s impossible to narrow it down to one specific
+              thing using an average across millions of blogs. So how long
+              should a blog be? According to these graphs – and many SEO’s have
+              concluded their numbers based on these graphs – the right word
+              count for how long a blog should be is an average of 2,225 words.
+            </p>
+            <p>
+              Both charts dramatically show that content with a higher word
+              count ranks better within Google’s top 10 than content with a
+              lower word count. This could be in conjunction with the number of
+              shares the posts get (we’ll get to this) or could just be an
+              inherent preference by Search Engines like Google to favor longer
+              articles with a higher word count. Another theory is that topical
+              relevancy is increased with longer word count, by nature of the
+              inclusion of more details and related keywords in the content.
+              Google then gets a deeper understanding of your content’s overall
+              topic, thus boosting your position. Lastly, there’s also the idea
+              that the site owners that are publishing the longer content pieces
+              that are ranking well just care more about providing excellent,
+              in-depth content. While this scenario is likely true for a lot of
+              site-owners, it’s impossible to narrow it down to one specific
+              thing using an average across millions of blogs. So how long
+              should a blog be? According to these graphs – and many SEO’s have
+              concluded their numbers based on these graphs – the right word
+              count for how long a blog should be is an average of 2,225 words.
+            </p>
+            <h3>How Are These SEO Blog Length Charts Misleading?</h3>
+            <p>
+              The main reason these are misleading is due to the deliberate
+              setting of the scale of the Y-Axis. The Y-Axis scale is a very
+              small subset of the total 2,450 words, basically only showing us a
+              sliver of it with a span of 300-400 words. This small scale makes
+              the word count jumps look huge between ranking position 1 and 10.
+              Based on the charts, many make the false assumption that if you
+              don’t write blog posts that are at least 2,225 words, you won’t
+              rank high at all. This is simply not true.
+            </p>
+            <picture>
+              <img
+                sizes="(max-width: 980px) 100vw, 980px"
+                srcset="
+                  ./assets/images/line-chart_aqlxtb_c_scale,w_200.webp 200w,
+                  ./assets/images/line-chart_aqlxtb_c_scale,w_980.webp 980w
+                "
+                src="./assets/images/line-chart_aqlxtb_c_scale,w_980.webp"
+                alt="Line Chart Image"
+              />
+            </picture>
+            <p>
+              Matt Bentley from CanIRank shows us the true effect longer-form
+              content has on rankings. First, Matt took the same data, which
+              mimicked the charts above, but set the scale from 0 to 2,500 words
+              for a blog post on the Y-axis. He also extended the X-axis to show
+              Google rankings from 1 to 40. Here’s how it looks:
+            </p>
+            <h2>HOW LONG SHOULD A BLOG POST BE? – A THOROUGH ANALYSIS</h2>
+            <p>
+              by Greg Secrist | Feb 10, 2021 | Content Marketing | 3 comments
+            </p>
+            <p>
+              Due to the highly competitive nature of the SEO landscape, knowing
+              the tricks of the trade that give your content the edge up on your
+              competitors is what every content marketer seeks. Determining how
+              long a blog should be is essential because it can affect budgets,
+              posting frequency, and overall content marketing performance.
+            </p>
+            <h2>How Long Should a Blog Post Be?</h2>
+            <p>
+              So, how long should a blog post be? The answer can be tricky,
+              since there’s more at play than just a one-size-fits-all search
+              engine mandate. There are a number of differing opinions from SEOs
+              about what the magical word count should be for a blog post, and
+              many of them are based on data gathered as long ago as 2012. Since
+              the internet has changed quite a bit since then, we’ll analyze
+              more current data to help answer this question. But first, let’s
+              go over some of the most common charts that everyone else uses to
+              answer this question.
+            </p>
+            <h2>
+              These Charts About The Best Length for a Blog Post Can Be
+              Misleading
+            </h2>
+            <img src="./assets/images/chart.webp" alt="CHART" />
+            <h2>
+              What do These Charts Mean When It comes to How Long a Blog Post
+              Should Be?
+            </h2>
+            <p>
+              Both charts dramatically show that content with a higher word
+              count ranks better within Google’s top 10 than content with a
+              lower word count. This could be in conjunction with the number of
+              shares the posts get (we’ll get to this) or could just be an
+              inherent preference by Search Engines like Google to favor longer
+              articles with a higher word count. Another theory is that topical
+              relevancy is increased with longer word count, by nature of the
+              inclusion of more details and related keywords in the content.
+              Google then gets a deeper understanding of your content’s overall
+              topic, thus boosting your position. Lastly, there’s also the idea
+              that the site owners that are publishing the longer content pieces
+              that are ranking well just care more about providing excellent,
+              in-depth content. While this scenario is likely true for a lot of
+              site-owners, it’s impossible to narrow it down to one specific
+              thing using an average across millions of blogs. So how long
+              should a blog be? According to these graphs – and many SEO’s have
+              concluded their numbers based on these graphs – the right word
+              count for how long a blog should be is an average of 2,225 words.
+            </p>
+            <h3>How Are These SEO Blog Length Charts Misleading?</h3>
+            <p>
+              The main reason these are misleading is due to the deliberate
+              setting of the scale of the Y-Axis. The Y-Axis scale is a very
+              small subset of the total 2,450 words, basically only showing us a
+              sliver of it with a span of 300-400 words. This small scale makes
+              the word count jumps look huge between ranking position 1 and 10.
+              Based on the charts, many make the false assumption that if you
+              don’t write blog posts that are at least 2,225 words, you won’t
+              rank high at all. This is simply not true.
+            </p>
+            <picture>
+              <img
+                sizes="(max-width: 980px) 100vw, 980px"
+                srcset="
+                  ./assets/images/line-chart_aqlxtb_c_scale,w_200.webp 200w,
+                  ./assets/images/line-chart_aqlxtb_c_scale,w_980.webp 980w
+                "
+                src="./assets/images/line-chart_aqlxtb_c_scale,w_980.webp"
+                alt="Line Chart Image"
+              />
+            </picture>
+            <p>
+              Matt Bentley from CanIRank shows us the true effect longer-form
+              content has on rankings. First, Matt took the same data, which
+              mimicked the charts above, but set the scale from 0 to 2,500 words
+              for a blog post on the Y-axis. He also extended the X-axis to show
+              Google rankings from 1 to 40. Here’s how it looks:
+            </p>
+            <h2>HOW LONG SHOULD A BLOG POST BE? – A THOROUGH ANALYSIS</h2>
+            <p>
+              by Greg Secrist | Feb 10, 2021 | Content Marketing | 3 comments
+            </p>
+            <p>
+              Due to the highly competitive nature of the SEO landscape, knowing
+              the tricks of the trade that give your content the edge up on your
+              competitors is what every content marketer seeks. Determining how
+              long a blog should be is essential because it can affect budgets,
+              posting frequency, and overall content marketing performance.
+            </p>
+            <h2>How Long Should a Blog Post Be?</h2>
+            <p>
+              So, how long should a blog post be? The answer can be tricky,
+              since there’s more at play than just a one-size-fits-all search
+              engine mandate. There are a number of differing opinions from SEOs
+              about what the magical word count should be for a blog post, and
+              many of them are based on data gathered as long ago as 2012. Since
+              the internet has changed quite a bit since then, we’ll analyze
+              more current data to help answer this question. But first, let’s
+              go over some of the most common charts that everyone else uses to
+              answer this question.
+            </p>
+            <h2>
+              These Charts About The Best Length for a Blog Post Can Be
+              Misleading
+            </h2>
+            <img src="./assets/images/chart.webp" alt="CHART" />
+            <h2>
+              What do These Charts Mean When It comes to How Long a Blog Post
+              Should Be?
+            </h2>
+            <p>
+              Both charts dramatically show that content with a higher word
+              count ranks better within Google’s top 10 than content with a
+              lower word count. This could be in conjunction with the number of
+              shares the posts get (we’ll get to this) or could just be an
+              inherent preference by Search Engines like Google to favor longer
+              articles with a higher word count. Another theory is that topical
+              relevancy is increased with longer word count, by nature of the
+              inclusion of more details and related keywords in the content.
+              Google then gets a deeper understanding of your content’s overall
+              topic, thus boosting your position. Lastly, there’s also the idea
+              that the site owners that are publishing the longer content pieces
+              that are ranking well just care more about providing excellent,
+              in-depth content. While this scenario is likely true for a lot of
+              site-owners, it’s impossible to narrow it down to one specific
+              thing using an average across millions of blogs. So how long
+              should a blog be? According to these graphs – and many SEO’s have
+              concluded their numbers based on these graphs – the right word
+              count for how long a blog should be is an average of 2,225 words.
+            </p>
+            <h3>How Are These SEO Blog Length Charts Misleading?</h3>
+            <p>
+              The main reason these are misleading is due to the deliberate
+              setting of the scale of the Y-Axis. The Y-Axis scale is a very
+              small subset of the total 2,450 words, basically only showing us a
+              sliver of it with a span of 300-400 words. This small scale makes
+              the word count jumps look huge between ranking position 1 and 10.
+              Based on the charts, many make the false assumption that if you
+              don’t write blog posts that are at least 2,225 words, you won’t
+              rank high at all. This is simply not true.
+            </p>
+            <picture>
+              <img
+                sizes="(max-width: 980px) 100vw, 980px"
+                srcset="
+                  ./assets/images/line-chart_aqlxtb_c_scale,w_200.webp 200w,
+                  ./assets/images/line-chart_aqlxtb_c_scale,w_980.webp 980w
+                "
+                src="./assets/images/line-chart_aqlxtb_c_scale,w_980.webp"
+                alt="Line Chart Image"
+              />
+            </picture>
+            <p>
+              Matt Bentley from CanIRank shows us the true effect longer-form
+              content has on rankings. First, Matt took the same data, which
+              mimicked the charts above, but set the scale from 0 to 2,500 words
+              for a blog post on the Y-axis. He also extended the X-axis to show
+              Google rankings from 1 to 40. Here’s how it looks:
+            </p>
+          </div>
         </div>
       </main>
       <footer class="footer">
