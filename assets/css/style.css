@@ -169,6 +169,9 @@ img {
   background: var(--light-color-1);
   padding: 20px;
 }
+.blog-image {
+  min-height: 320px;
+}
 .footer {
   background: var(--light-color-1);
   height: 50px;
@@ -256,6 +259,9 @@ img {
   }
   .article-container {
     padding: 40px 80px;
+  }
+  .blog-image {
+    min-height: 750px;
   }
   .menu-icon {
     display: none;
