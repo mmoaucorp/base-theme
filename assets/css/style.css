@@ -170,7 +170,7 @@ img {
   padding: 20px;
 }
 .blog-image {
-  min-height: 320px;
+  min-height: 150px;
 }
 .footer {
   background: var(--light-color-1);
@@ -261,7 +261,7 @@ img {
     padding: 40px 80px;
   }
   .blog-image {
-    min-height: 750px;
+    min-height: 400px;
   }
   .menu-icon {
     display: none;
@@ -291,5 +291,8 @@ img {
   /* ------- Layout Styles ------- */
   .container {
     max-width: 1280px;
+  }
+  .blog-image {
+    min-height: 500px;
   }
 }
